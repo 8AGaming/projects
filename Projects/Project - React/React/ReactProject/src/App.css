@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trip_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: rgb(194, 143, 35);
+  margin: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 10px;
+}
+.trip_card:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 205, 144);
+}
+.trip_card_title {
+  color: rgb(54, 54, 54);
+  font-size: 25px;
+}
+.trip_card_text {
+  color: rgb(246, 246, 246);
+  font-size: 25px;
+}
+.trip_card_title {
+  color: rgb(54, 54, 54);
+  font-size: 25px;
+}
+.trip_card_image {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 2px black;
+}
+#trip_card_detail {
+  max-width: 600px;
+  background-color: rgb(194, 143, 35);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.2s;
+  z-index: 0;
+}
+#trip_card_detail:hover {
+  transform: scale(1.03);
+  background-color: rgb(212, 169, 77);
+  z-index: 1;
+}
+.trip_card_detail_image {
+  max-width: 500px;
+  border-radius: 10px;
+}
+.trip_card_detail_text {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.trip_card_detail_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.trip_card_detail_small_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(55, 55, 55);
+}
+#register_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.inputs {
+  border: none;
+  outline: none;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 4px;
+  transition: 0.4s;
+  font-size: 18px;
+
+  background-color: rgb(44, 44, 44);
+}
+.inputs:focus {
+  transform: scale(1.03);
+  background-color: rgb(204, 62, 255);
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*::-webkit-input-placeholder {
+  color: rgb(231, 231, 231);
+}
+
+#form_button {
+  padding: 10px;
+  background-color: rgb(42, 154, 189);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+}
+#form_button:hover {
+  transform: scale(1.1);
+  background-color: rgb(94, 208, 243);
+}
+#image_input_preview {
+  margin: 10px;
+  max-width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgb(0, 0, 0);
+  transition: 0.4s;
+}
+#image_input_preview:hover {
+  transform: scale(1.1);
+}
+#titles {
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+#titles:hover {
+  transform: scale(1.1);
+}
+nav {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+body {
+  background-color: rgb(0, 20, 28);
+}
+.buttons {
+  padding: 10px;
+  background-color: rgb(42, 154, 189);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
+.buttons:hover {
+  transform: scale(1.1);
+  background-color: rgb(94, 208, 243);
+}
+.delete_buttons {
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
+.delete_buttons:hover {
+  transform: scale(1.1);
+  background-color: rgb(243, 94, 94);
+}
